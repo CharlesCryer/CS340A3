@@ -150,6 +150,7 @@ UPROGS=\
 	$U/_uoa_exectime\
 	$U/_uoa_testschd\
 	$U/_mv\
+	$U/_du\
 
 fs.img: mkfs/mkfs README.xv6 $(UPROGS)
 	mkfs/mkfs fs.img README.xv6 $(UPROGS)
